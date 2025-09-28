@@ -118,7 +118,9 @@
       "Kaç çeşit kedi ırkı var",
       "Kedi ırkı sayısı",
       "Dünyada tanınan kedi ırkları",
-      "Dünyada bilinen kedi ırkları"
+      "Dünyada bilinen kedi ırkları",
+      "Kaç tane kedi türü var",
+      "Kedi türü"
     ],
     "cevap": "Dünyada tanınan 70'ten fazla kedi ırkı vardır."
   },
@@ -755,20 +757,20 @@
   {
     "soru": "Kediler neden avlanır?",
     "varyasyonlar": [
-      "kediler avlanır mı",
-      "kediler neden avlanır",
-      "kediler avlanma sebebi",
-      "kediler neden avlanıyor"
+      "Kediler avlanır mı",
+      "Kediler neden avlanır",
+      "Kediler avlanma sebebi",
+      "Kediler neden avlanıyor"
     ],
     "cevap": "Kediler avlanarak besin ihtiyaçlarını karşılar ve doğal içgüdülerini tatmin eder."
   },
   {
     "soru": "Kediler neden suya girmez?",
     "varyasyonlar": [
-      "kediler suya girer mi",
-      "kediler neden suya girmez",
-      "kediler suya girmez mi",
-      "kediler neden sudan kaçar"
+      "Kediler suya girer mi",
+      "Kediler neden suya girmez",
+      "Kediler suya girmez mi",
+      "Kediler neden sudan kaçar"
     ],
     "cevap": "Kediler suya genellikle girmez çünkü tüyleri suyu itme özelliğine sahiptir."
   },
@@ -813,4 +815,5 @@
     "cevap": "Kediler kısırlaştırılarak kontrolsüz üremeleri engellenir ve sağlıkları korunur."
   }
 ]
+
 
