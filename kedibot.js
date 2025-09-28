@@ -61,7 +61,7 @@ function botCevapla(input) {
   const sonuc = findSoru(input);
   if (!sonuc) {
     sonOnerilenSoru = null;
-    return "Üzgünüm, bu konuda bilgim yok. Lütfen daha farklı bir şekilde sorabilir misiniz?";
+    return "Üzgünüm, bu konuda bilgim yok.🥺 Lütfen daha farklı bir şekilde miyavlayabilir misiniz?"😼;
   }
   if (sonuc.type === 'exact' || sonuc.type === 'variation') {
     sonOnerilenSoru = null;
@@ -73,7 +73,7 @@ function botCevapla(input) {
   if (sonuc.type === 'suggest') {
     sonOnerilenSoru = sonuc.soru;
     // Soruya tıklanabilirlik ekle
-    return `Bunu mu sormak istediniz: <b class="suggested-soru" style="cursor:pointer;text-decoration:underline;" data-soru="${sonuc.soru.replace(/"/g, '&quot;')}">${sonuc.soru}</b>?<br><span class="suggestion-tip">(<i>Soruya tıklayarak otomatik kopyalayabilirsiniz.</i>)</span>`;
+    return `Bunu mu miyavlamak istediniz: <b class="suggested-soru" style="cursor:pointer;text-decoration:underline;" data-soru="${sonuc.soru.replace(/"/g, '&quot;')}">${sonuc.soru}</b>?<br><span class="suggestion-tip">(<i>Soruya tıklayarak otomatik kopyalayabilirsiniz.</i>)</span>`;
   }
 }
 
@@ -119,6 +119,7 @@ chatForm.addEventListener('submit', function(e) {
 // Açılış mesajı otomatik gönder
 window.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
-    addMessage("Ben kedisel anlamda bilinen ilk yapay zekayım.<br>Size nasıl miyavdımcı olabilirim? 😺", 'bot');
+    addMessage("Ben kedisel anlamda bilinen ilk kedi botum.<br>Size nasıl miyavdımcı olabilirim? 😺", 'bot');
   }, 400);
 });
+
